@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Anton', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    display: flex;
+}
+
+form{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+    
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form_input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid #ff867a;
+    border-radius: .2em;
+
+}
+
+.form.enviar{
+    font-family: inherit;
+}
+
+.form-title{
+text-align: center;
+font-size: 1.9rem;
+}
+.form_inputmsj{
+   resize: none;
+   margin-bottom: 10px;
+}
+.enviar{
+    font-family: inherit;
+    background-color: #ff867a;
+    color: white;
+    font-weight: 100;
+    border: 2px solid #b12a5b;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+@media (max-width:450px) {
+    form{
+        padding: 3.5em 1em;
+        
+       
+    }
+}
